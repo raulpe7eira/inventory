@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      material:
+        one: Material
+        other: Materiais
+    attributes:
+      material:
+        name: Nome
+        description: Descrição
+        amount: Quantidade

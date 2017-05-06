@@ -1,0 +1,7 @@
+en:
+  messages:
+    confirm: Are you sure you want to destroy '%{name}'?
+    created: Was successfully created
+    updated: Was successfully updated
+    destroyed: Was successfully destroyed
+    error: Prohibited from being saved

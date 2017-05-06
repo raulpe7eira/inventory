@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      material:
+        one: Material
+        other: Materials
+    attributes:
+      material:
+        name: Name
+        description: Description
+        amount: Amount

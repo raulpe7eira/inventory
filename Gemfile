@@ -8,6 +8,26 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
+# Use 'rails-i18n' for collecting Locale data for Ruby on Rails
+gem 'rails-i18n'
+
+# Use 'devise' for authentication
+gem 'devise'
+# Use 'devise-i18n' for collecting Locale data for devise
+gem 'devise-i18n'
+# Use 'devise-bootstrap-views' for devise bootstrap views with i18n support
+gem 'devise-bootstrap-views'
+
+# Use 'kaminari' for paginator
+gem 'kaminari'
+# Use 'kaminari-i18n' for collecting Locale data for kaminari
+gem 'kaminari-i18n'
+
+source 'https://rails-assets.org' do
+  # Use 'rails-assets-bootstrap' for responsive site in member mode
+  gem 'rails-assets-bootstrap'
+end
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -38,6 +58,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -51,3 +72,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+ruby ENV['CUSTOM_RUBY_VERSION'] || '>= 2.2.4'
