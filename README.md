@@ -7,11 +7,11 @@ Um pequeno projeto para testar minhas habilidades.
 ## Desafio
 
 Construir um sistema CRUD (create, read, update, delete) da maneira que se sentir mais confortável, apenas seguindo os seguintes pré-requisitos:
-- (√) Banco de dados **preferencialmente** NoSQL
-- (√) As operações que manipulam dados devem ser autenticadas
-- (√) Testes do código (**livre escolha**)
-- (√) Deploy em um PaaS, ou em algum outro serviço na nuvem
-- (√) O código deve ser publicado no Github
+- **(√)** Banco de dados **preferencialmente** NoSQL
+- **(√)** As operações que manipulam dados devem ser autenticadas
+- **(√)** Testes do código (**livre escolha**)
+- **(√)** Deploy em um PAAS, ou em algum outro serviço na nuvem
+- **(√)** O código deve ser publicado no Github
 
 ## Solução
 
@@ -76,6 +76,10 @@ Acesse => *[https://inventory-rp.herokuapp.com/](https://inventory-rp.herokuapp.
 **[SQLite](https://sqlite.org/)**: Utilizado por já vir embarcado na plataforma e facilitar o desenvolvimento local. 
 
 **[PostgreSQL](https://www.postgresql.org/)**: Escolhido por ser indicado pelo local que será hospedado em produção.
+
+##### Segurança
+
+**[Devise](https://github.com/plataformatec/devise)**: Foi utilizado esta biblioteca de módulos para solucionar questões de segurança aos serviços que a aplicação possui. Hoje a aplicação permite o cadastro de novos usuários e apenas o usuário autenticado pode acessar o cadastro de materiais, além disso somente ele tem acesso aos materiais cadastrados por ele na aplicação.
 
 #### Frontend
 
