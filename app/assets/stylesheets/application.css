@@ -24,25 +24,20 @@ body {
   background:#fbfbfb image-url('background.png') no-repeat right bottom fixed;
 }
 
-div.main {
-  padding-top:70px;
+a.navbar-brand span {
+  top:2px;
 }
 
-div.panel {
-  opacity:.9;
+div.main {
+  padding-top:70px;
 }
 
 div.auth {
   width:350px;
 }
 
-h2.sb-title {
-  color:#959595;
-  font-size:12px;
-  font-weight:700;
-  letter-spacing:1px;
-  margin:15px 15px 0;
-  text-transform:uppercase;
+div.panel {
+  opacity:.9;
 }
 
 th.sorters, th.actions, td.actions {
@@ -90,4 +85,13 @@ ul.pagination {
 
 div.alert h2 {
   margin-top:0;
+}
+
+h2.sb-title {
+  color:#959595;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:1px;
+  margin:15px 15px 0;
+  text-transform:uppercase;
 }

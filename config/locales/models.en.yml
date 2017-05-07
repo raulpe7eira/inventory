@@ -7,5 +7,6 @@ pt-BR:
     attributes:
       material:
         name: Name
-        description: Description
         amount: Amount
+        description: Description
+        user: User

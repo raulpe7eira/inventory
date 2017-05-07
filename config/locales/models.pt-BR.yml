@@ -7,5 +7,6 @@ pt-BR:
     attributes:
       material:
         name: Nome
-        description: Descrição
         amount: Quantidade
+        description: Descrição
+        user: Usuário
