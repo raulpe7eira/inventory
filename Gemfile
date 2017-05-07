@@ -60,14 +60,15 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+  gem 'byebug', :platform => :mri
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
 end
 
 group :test do
-  gem 'shoulda-matchers', require: false
+  gem 'simplecov', :require => false
+  gem 'shoulda-matchers', :require => false
   gem 'database_cleaner'
   gem 'faker'
 end

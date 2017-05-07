@@ -37,7 +37,7 @@ RSpec.describe Material, :type => :model do
 
   context 'factories' do
     it { expect(build :material).to be_valid }
-    it { expect(build :material, user: nil).to_not be_valid }
+    it { expect(build :invalid_material).to_not be_valid }
   end
 
 end

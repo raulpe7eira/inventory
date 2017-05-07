@@ -67,4 +67,5 @@ class MaterialsController < ApplicationController
     def material_params
       params.require(:material).permit(:name, :amount, :description, :user_id)
     end
+
 end
