@@ -67,6 +67,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'rails-controller-testing'
   gem 'simplecov', :require => false
   gem 'shoulda-matchers', :require => false
   gem 'database_cleaner'

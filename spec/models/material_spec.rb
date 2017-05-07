@@ -26,17 +26,17 @@ RSpec.describe Material, :type => :model do
 
   context 'scopes' do
     describe 'ordered' do
-      let!(:admin)       { create :user }
+      let(:account)      { create :user }
 
-      let!(:material_one) { create :material, user: admin, name: 'Monitor' }
-      let!(:material_two) { create :material, user: admin, name: 'Computer' }
+      let(:material_one) { create :valid_material, user: account, name: 'Monitor' }
+      let(:material_two) { create :valid_material, user: account, name: 'Computer' }
 
-      it { expect(described_class.ordered(admin)).to eq([material_two, material_one]) }
+      it { expect(described_class.ordered(account)).to match_array([material_two, material_one]) }
     end
   end
 
   context 'factories' do
-    it { expect(build :material).to be_valid }
+    it { expect(build :valid_material).to be_valid }
     it { expect(build :invalid_material).to_not be_valid }
   end
 
