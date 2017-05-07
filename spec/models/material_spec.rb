@@ -25,13 +25,13 @@ RSpec.describe Material, :type => :model do
   end
 
   context 'scopes' do
-    subject { build :material }
-
     describe 'ordered' do
-      let!(:material_one) { create :material, user: subject.user, name: 'Monitor' }
-      let!(:material_two) { create :material, user: subject.user, name: 'Computer' }
+      let!(:admin)       { create :user }
 
-      it { expect(described_class.ordered(subject.user)).to eq([material_two, material_one]) }
+      let!(:material_one) { create :material, user: admin, name: 'Monitor' }
+      let!(:material_two) { create :material, user: admin, name: 'Computer' }
+
+      it { expect(described_class.ordered(admin)).to eq([material_two, material_one]) }
     end
   end
 
