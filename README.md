@@ -14,7 +14,7 @@ Construir um sistema CRUD (create, read, update, delete) da maneira que se senti
 - **(√)** Deploy em um PAAS, ou em algum outro serviço na nuvem
 - **(√)** O código deve ser publicado no Github
 
-A análise do código é com foco na segurança, não se preocupe com UX!
+A análise do código é com **foco na segurança**, não se preocupe com UX!
 
 ## Solução
 
