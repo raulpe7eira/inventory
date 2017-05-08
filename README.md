@@ -66,7 +66,7 @@ Acesse => *[https://inventory-rp.herokuapp.com/](https://inventory-rp.herokuapp.
 
 #### Plataforma
 
-**[Rails](http://rubyonrails.org/)**: Escolhido para continuar a estudar o potencial da plataforma e por acreditar que conseguiria finalizar o máximo das requisições necessárias para o teste em menos tempo.
+**[Rails](http://rubyonrails.org/)**: Escolhido para continuar a estudar o potencial da plataforma e por acreditar que conseguiria finalizar o máximo das requisitos necessários para o desafio em menos tempo.
 
 #### Backend
 
@@ -90,7 +90,7 @@ Acesse => *[https://inventory-rp.herokuapp.com/](https://inventory-rp.herokuapp.
 
 #### Testes
 
-**[RSpec](http://rspec.info/)**: Toda a estrutura do modelo e controle foi coberta, backend), ficou pendente realizar os testes para os helpers e os cenários para os features, frontend. A finalização de todos os testes é mais do que necessária para orquestrar todo processo de implantação em ambiente de produção com mais segurança.
+**[RSpec](http://rspec.info/)**: Toda a estrutura do modelo e controle foi coberta - backend, ficou pendente realizar os testes para os helpers e os cenários para as features - frontend. A finalização de todos os testes é mais do que necessária para orquestrar todo processo de implantação em ambiente de produção com mais segurança.
 
 #### Servidores de produção
 
