@@ -90,7 +90,7 @@ Acesse => *[https://inventory-rp.herokuapp.com/](https://inventory-rp.herokuapp.
 
 #### Testes
 
-**[RSpec](http://rspec.info/)**: Toda a estrutura do modelo e controle foi coberta - backend, ficou pendente realizar os testes para os helpers e os cenários para as features - frontend. A finalização de todos os testes é mais do que necessária para orquestrar todo processo de implantação em ambiente de produção com mais segurança.
+**[RSpec](http://rspec.info/)**: Toda a estrutura do modelo e controle foi coberta - backend, ficou pendente realizar os testes para os helpers e os cenários para as features - frontend. A finalização de todos os testes é mais do que necessário para orquestrar todo processo de implantação em ambiente de produção com mais segurança.
 
 #### Servidores de produção
 
