@@ -7,6 +7,7 @@ Um pequeno projeto para testar minhas habilidades.
 ## Desafio
 
 > ...
+>
 > Construir um sistema CRUD (create, read, update, delete) da maneira que se sentir mais confortável, apenas seguindo os seguintes pré-requisitos:
 >
 > - [X] Banco de dados (**preferencialmente NoSQL**)
@@ -16,6 +17,7 @@ Um pequeno projeto para testar minhas habilidades.
 > - [X] O código deve ser publicado no Github
 >
 > A análise do código é com **foco na segurança**, não se preocupe com UX!
+>
 > ...
 
 ## Solução
