@@ -6,15 +6,17 @@ Um pequeno projeto para testar minhas habilidades.
 
 ## Desafio
 
-Construir um sistema CRUD (create, read, update, delete) da maneira que se sentir mais confortável, apenas seguindo os seguintes pré-requisitos:
-
-- **(√)** Banco de dados (**preferencialmente NoSQL**)
-- **(√)** As operações que manipulam dados devem ser autenticadas
-- **(√)** Testes do código (**livre escolha**)
-- **(√)** Deploy em um PAAS, ou em algum outro serviço na nuvem
-- **(√)** O código deve ser publicado no Github
-
-A análise do código é com **foco na segurança**, não se preocupe com UX!
+> ...
+> Construir um sistema CRUD (create, read, update, delete) da maneira que se sentir mais confortável, apenas seguindo os seguintes pré-requisitos:
+>
+> - [X] Banco de dados (**preferencialmente NoSQL**)
+> - [X] As operações que manipulam dados devem ser autenticadas
+> - [X] Testes do código (**livre escolha**)
+> - [X] Deploy em um PAAS, ou em algum outro serviço na nuvem
+> - [X] O código deve ser publicado no Github
+>
+> A análise do código é com **foco na segurança**, não se preocupe com UX!
+> ...
 
 ## Solução
 
